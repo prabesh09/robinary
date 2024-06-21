@@ -18,13 +18,13 @@ const Categories = () => {
     ];
 
     return (
-        <div className="flex flex-col gap-3 overflow-auto w-[25em]">
+        <ul className="flex flex-col gap-3 overflow-auto w-[25em]">
             {list.map((item, index) => (
-                <div key={index}>
+                <li key={index}>
                     {item}
-                </div>
+                </li>
             ))}
-        </div>
+        </ul>
     )
 }
 
