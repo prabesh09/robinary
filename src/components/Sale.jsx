@@ -45,7 +45,7 @@ const Sale = () => {
                 </h1>
                 <div className="flex gap-5 my-4">
                     {items.map((item, index) => (
-                        <SaleItem key={index} image={`../../public/products/${index + 1}.png`} title={item.title} price={item.price} rating="⭐⭐⭐⭐⭐" />
+                        <SaleItem key={index} image={`products/${index + 1}.png`} title={item.title} price={item.price} rating="⭐⭐⭐⭐⭐" />
                     ))}
                 </div>
 

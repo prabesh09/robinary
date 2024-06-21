@@ -18,7 +18,7 @@ const Carousel = () => {
 
     return (
         <div className="w-full flex justify-center items-center gap-2">
-            <img src={`../public/${carousel[current]}.png`} alt="" className="h-full" />
+            <img src={`${carousel[current]}.png`} alt="" className="h-full" />
             {/* <button onClick={handleChange} className="bg-red-500 text-white px-5 rounded-2xl">
                 NEXT
             </button> */}
